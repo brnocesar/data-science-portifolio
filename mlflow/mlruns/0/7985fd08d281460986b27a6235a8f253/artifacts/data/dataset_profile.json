@@ -1,0 +1,36 @@
+{
+  "dataset_version": "synthetic_credit_v1",
+  "n_amostras": 6000,
+  "n_colunas": 9,
+  "target": "inadimplente",
+  "features": [
+    "idade",
+    "renda_mensal",
+    "tempo_emprego_anos",
+    "score_interno",
+    "valor_solicitado",
+    "num_parcelas",
+    "tipo_renda",
+    "possui_restricao"
+  ],
+  "num_cols": "Index(['idade', 'renda_mensal', 'tempo_emprego_anos', 'score_interno',\n       'valor_solicitado', 'num_parcelas'],\n      dtype='str')",
+  "cat_cols": [
+    "tipo_renda",
+    "possui_restricao"
+  ],
+  "target_distribution": {
+    "0": 0.8795,
+    "1": 0.1205
+  },
+  "dtypes": {
+    "idade": "int64",
+    "renda_mensal": "float64",
+    "tempo_emprego_anos": "float64",
+    "score_interno": "int64",
+    "valor_solicitado": "float64",
+    "num_parcelas": "int64",
+    "tipo_renda": "str",
+    "possui_restricao": "str",
+    "inadimplente": "int64"
+  }
+}
