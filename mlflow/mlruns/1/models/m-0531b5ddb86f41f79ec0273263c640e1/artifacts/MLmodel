@@ -1,0 +1,35 @@
+artifact_path: /home/bruno/estudos/data-science-portifolio/mlflow/mlruns/1/models/m-0531b5ddb86f41f79ec0273263c640e1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.0
+model_id: m-0531b5ddb86f41f79ec0273263c640e1
+model_size_bytes: 8109
+model_uuid: m-0531b5ddb86f41f79ec0273263c640e1
+prompts: null
+run_id: 7a7bb50e45434c29a3840190f02460f4
+signature:
+  inputs: '[{"type": "long", "name": "idade", "required": true}, {"type": "double",
+    "name": "renda_mensal", "required": true}, {"type": "double", "name": "tempo_emprego_anos",
+    "required": true}, {"type": "long", "name": "score_interno", "required": true},
+    {"type": "double", "name": "valor_solicitado", "required": true}, {"type": "long",
+    "name": "num_parcelas", "required": true}, {"type": "string", "name": "tipo_renda",
+    "required": true}, {"type": "string", "name": "possui_restricao", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-12 19:57:54.701139'

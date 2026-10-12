@@ -74,3 +74,18 @@ def data_preprocess(num_cols:list[str]=NUM_COLS, cat_cols:list[str]=CAT_COLS) ->
             ("cat", categorical_pipe, cat_cols),
         ]
     )
+
+
+def profile_for_test_prediction() -> pd.DataFrame:
+    return pd.DataFrame([
+        {
+            "idade":              34,
+            "renda_mensal":       4200.0,
+            "tempo_emprego_anos": 5.0,
+            "score_interno":      620,
+            "valor_solicitado":   12000.0,
+            "num_parcelas":       24,
+            "tipo_renda":         "CLT",
+            "possui_restricao":   "nao",
+        }
+    ])

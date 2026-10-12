@@ -1,0 +1,14 @@
+{
+  "model_name": "logistic_regression",
+  "run_id": "e4afeca8be834b3fb69b1dbd6e3f4c0f",
+  "metrics": {
+    "roc_auc_cv_media": 0.9022662460978746,
+    "roc_auc_cv_desvio": 0.0010950737668590264,
+    "roc_auc_teste": 0.9035767092934126,
+    "accuracy_teste": 0.8226666666666667,
+    "precision_inadimplente": 0.38903394255874674,
+    "recall_inadimplente": 0.8232044198895028,
+    "f1_inadimplente": 0.5283687943262412
+  },
+  "notes": "Run gerada com mlflow.sklearn.autolog e m\u00e9tricas de teste registradas manualmente para compara\u00e7\u00e3o."
+}
