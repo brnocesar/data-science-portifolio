@@ -1,0 +1,15 @@
+{
+  "technical_score": {
+    "roc_auc_teste": 0.35,
+    "recall_inadimplente": 0.25,
+    "precision_inadimplente": 0.15,
+    "f1_inadimplente": 0.15,
+    "stability_score": 0.1
+  },
+  "final_score": {
+    "technical_score": 0.75,
+    "interpretability_score": 0.15,
+    "operational_simplicity_score": 0.1
+  },
+  "notes": "Pesos adotados para sele\u00e7\u00e3o do modelo campe\u00e3o nesse projeto. Em um projeto real, esses pesos devem ser definidos considerando neg\u00f3cio, risco, compliance e engenharia."
+}

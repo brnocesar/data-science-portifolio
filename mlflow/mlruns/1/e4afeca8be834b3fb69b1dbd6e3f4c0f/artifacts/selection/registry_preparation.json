@@ -1,0 +1,10 @@
+{
+  "registered_model_name": "credit_risk_classifier",
+  "source_run_id": "e4afeca8be834b3fb69b1dbd6e3f4c0f",
+  "source_run_name": "hibrid_log_comparison_logistic_regression",
+  "model_name": "logistic_regression",
+  "model_uri": "runs:/e4afeca8be834b3fb69b1dbd6e3f4c0f/model",
+  "intended_stage_next_lesson": "Staging",
+  "selection_status": "champion_candidate",
+  "notes": "Metadados preparados registro efetivo no Model Registry."
+}
