@@ -1,0 +1,42 @@
+artifact_path: /home/bruno/estudos/data-science-portifolio/mlflow/mlartifacts/6/models/m-9bc8a1fd3bbe4b4f9045c921ed1fa36b/artifacts
+flavors:
+  python_function:
+    artifacts:
+      sklearn_model:
+        path: artifacts/artifacts
+        uri: /home/bruno/estudos/data-science-portifolio/mlflow/mlartifacts/5/models/m-493132b1b8b64441bb51b13a29ab3fe3/artifacts
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.3
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.17.0
+model_id: m-9bc8a1fd3bbe4b4f9045c921ed1fa36b
+model_size_bytes: 12184
+model_uuid: m-9bc8a1fd3bbe4b4f9045c921ed1fa36b
+prompts: null
+run_id: bdcaa76259564975aa075b83915f69b5
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "idade", "required": true}, {"type": "double",
+    "name": "renda_mensal", "required": true}, {"type": "double", "name": "tempo_emprego_anos",
+    "required": true}, {"type": "long", "name": "score_interno", "required": true},
+    {"type": "double", "name": "valor_solicitado", "required": true}, {"type": "long",
+    "name": "num_parcelas", "required": true}, {"type": "string", "name": "tipo_renda",
+    "required": true}, {"type": "string", "name": "possui_restricao", "required":
+    true}]'
+  outputs: '[{"type": "double", "name": "probabilidade_inadimplencia", "required":
+    true}, {"type": "long", "name": "classe_prevista", "required": true}, {"type":
+    "double", "name": "limiar_utilizado", "required": true}]'
+  params: '[{"name": "threshold", "default": 0.5, "shape": null, "type": "double"}]'
+type_hint_from_example: false
+utc_time_created: '2026-10-18 19:57:11.421491'
