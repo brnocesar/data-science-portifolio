@@ -1,6 +1,13 @@
 # data-science-portifolio
 
+## Contents
+
+- [A/B Testing](ab_testing/readme.md)
+- [MLflow](mlflow/README.md)
+
 ## A/B Testing
+
+**Key-words:** A/B Testing, Marketing Analytics, Hypothesis Testing, Statistical Significance.
 
 A marketing campaign targeting website users was conducted with the aim of increasing product sales. To this end, an advertisement was specifically developed for this purpose.
 
@@ -13,6 +20,8 @@ The analysis was performed using the [Marketing A/B Testing](https://www.kaggle.
 [Click here to access the project](ab_testing/readme.md)
 
 ## MLflow
+
+**Key-words:** MLflow, Machine Learning, Credit Risk, Classification, Experiment Tracking, Model Comparison, Model Registry, Model Versioning.
 
 This project demonstrates how **MLflow can be used to build and manage a machine learning pipeline**, from experiment tracking and model comparison to model selection, registration, versioning, and reproducible evaluation and inference.
 
